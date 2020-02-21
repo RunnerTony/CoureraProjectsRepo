@@ -1,0 +1,10 @@
+Imagine you whant to open a new restaurant, cafe or a snackbar in Moscow, Russia. First, you need to choose a right place for the business. 
+It is here that the geo-data (i.e., Foursquare etc.) and a little DataScience magic come to help.
+In this project we aim to rank the districts ('boroughs') of Moscow in terms of eating-out faciliies availability and visualize that as a map.
+The task can be broken down into a few steps:
+1. get the districts borders as a geodataframe
+2. download population data for each district
+3. download a list of all cafes/restaurants and other eating-out faculities in Moscow and link each of the premises to a particular district
+4. calculate a seat availablitity measure (=aggregate number of seats in all premises / population) for each district
+5. rank the districts in terms of the results from (4) 
+6. create a "heat-map" of Moscow with districts colored corresponding to seats availablity 
