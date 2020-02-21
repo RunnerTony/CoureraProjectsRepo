@@ -8,3 +8,4 @@ The task can be broken down into a few steps:
 4. calculate a seat availablitity measure (=aggregate number of seats in all premises / population) for each district
 5. rank the districts in terms of the results from (4) 
 6. create a "heat-map" of Moscow with districts colored corresponding to seats availablity 
+7. for each of the districts fin the representative set of restaurants and cafes using Foursquare (these will help get the idea of the districts consumer preferences)
