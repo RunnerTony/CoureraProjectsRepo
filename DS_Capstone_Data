@@ -1,0 +1,9 @@
+Data sources:
+
+1. Geo-json with Moscow districts coordinates: http://gis-lab.info/data/mos-adm/ao.geojson
+2. Full list of Moscow's places where one can eaat-out (initially downloaded form the city's administration website):
+https://raw.githubusercontent.com/RunnerTony/CoureraProjectsRepo/master/moscow_eatout_json_utf8.txt
+(this dataset is most extensive, has a column indicating a particular district for each data item and contains the number of seats for each of
+the premises)
+3. Moscow population by district: https://raw.githubusercontent.com/RunnerTony/CoureraProjectsRepo/master/moscow_population_v2.csv
+4. Foursquare.com to get detailed data on restaurants and cafes
